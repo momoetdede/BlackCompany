@@ -23,13 +23,17 @@
     <div class="header">
       <div ng-include="'views/header.html'" ng-controller="HeaderCtrl"></div>
     </div>
-
-    <div class="menu">
-      <div ng-include="'views/menu.html'" ng-controller="MenuCtrl"></div>
-    </div>
-
-    <div class="content">
-      <div ng-include="'views/content.html'" ng-controller="ContentCtrl"></div>
+    <div class="container">
+      <div class="col-md-4 col-lg-4">
+        <div class="menu">
+          <div ng-include="'views/menu.html'" ng-controller="MenuCtrl"></div>
+        </div>
+      </div>
+      <div class="col-md-8 col-lg-8"></div>
+        <div class="content">
+          <div ng-include="'views/content.html'" ng-controller="ContentCtrl"></div>
+        </div>
+      </div>
     </div>
 
     <div class="footer">
@@ -38,7 +42,9 @@
 
     <!-- build:js(.) scripts/vendor.js -->
     <!-- bower:js -->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
     <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
