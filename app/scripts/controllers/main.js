@@ -8,7 +8,6 @@
  * Controller of the blackCompanyApp
  */
 angular.module('blackCompanyApp')
-  .controller('MainCtrl', function ($scope) {
-    $scope.name = "Gérard"
-
-  });
+.controller('MainCtrl', function ($scope) {
+  $scope.name = "Toubib"
+});
