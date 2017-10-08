@@ -8,10 +8,7 @@
  * Controller of the blackCompanyApp
  */
 angular.module('blackCompanyApp')
-  .controller('MainCtrl', function () {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+  .controller('MainCtrl', function ($scope) {
+    $scope.name = "Gérard"
+
   });
