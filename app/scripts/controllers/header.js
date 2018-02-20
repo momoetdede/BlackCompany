@@ -10,5 +10,5 @@
 
 angular.module('blackCompanyApp')
 .controller('HeaderCtrl', function ($scope) {
-  $scope.header_name = "Header"
+  $scope.header_name = "Les Annales de la Compagnie Noire"
 });
